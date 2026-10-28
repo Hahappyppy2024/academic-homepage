@@ -12,6 +12,7 @@ window.PROFILE = {
   location:'Montreal, QC, Canada',locationZh:'加拿大魁北克省蒙特利尔',
   scholar:'https://scholar.google.ca/citations?user=1F_HI-AAAAAJ&hl=en',orcid:'https://orcid.org/0000-0001-6962-6923',github:'',cv:'assets/Cheng_Cheng_Academic_CV_updated.pdf',portrait:'',
   sourceDate:'May 2026',sourceDateZh:'2026 年 5 月',
+  homepage:'https://hahappyppy2024.github.io/academic-homepage/',
   independentResearch:'Since 2023, I have pursued independent research without bursary funding, continuing to develop research questions, conduct studies, and write papers.',
   independentResearchZh:'自 2023 年起，我在无 bursary 资助的情况下坚持开展独立研究，持续探索科研问题、开展研究并撰写论文。',
   researchIntro:'I develop security-oriented benchmarks and functional and exploit test suites for LLM-generated software, and study detection, repair and verification across programming languages and prompt granularities.',
