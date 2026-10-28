@@ -1,0 +1,46 @@
+/* Clear reading sections framed by a misty, luminous lotus frieze. */
+.content-layout{border-top:0;padding-top:20px;align-items:start}
+.prose{min-width:0;width:100%}
+.content-section{position:relative;padding:30px 32px 34px;margin-bottom:34px;border:1px solid #c7dcea;border-top:3px solid #a9cddd;border-radius:18px;background:linear-gradient(145deg,#fcfefff2,#f1f8fdeb);box-shadow:0 9px 25px #6f98af0b;scroll-margin-top:130px}
+.content-section:nth-child(4n+2){background:linear-gradient(140deg,#edf7fff2,#f8fcfff2);border-top-color:#9fc7e5}
+.content-section:nth-child(4n+3){background:linear-gradient(140deg,#f4f0faf2,#fafcfff2);border-top-color:#c7bbdc}
+.content-section:nth-child(4n+4){background:linear-gradient(140deg,#eef7f2f2,#fbfdfcf2);border-top-color:#b4d2c4}
+.content-section + .content-section::before{content:'';display:block;height:100px;margin:-8px -14px 18px;background:url('lotus-divider-glow-plus-two.png') center 55%/100% auto no-repeat;opacity:.58;filter:blur(.25px) saturate(.7);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.content-section+.content-section::after{content:'';position:absolute;top:23px;left:25px;right:25px;height:90px;pointer-events:none;background:radial-gradient(circle at 19% 55%,#fffbed 0 1.5px,#ffe6a852 3px,transparent 9px),radial-gradient(circle at 42% 68%,#fffbed 0 1px,#ffe6a845 3px,transparent 8px),radial-gradient(circle at 68% 37%,#fffbed 0 1.5px,#ffe6a852 3px,transparent 9px),radial-gradient(circle at 84% 63%,#fffbed 0 1px,#ffe6a845 3px,transparent 8px);animation:divider-glimmer 6s ease-in-out infinite alternate}
+@keyframes divider-glimmer{from{opacity:.35}to{opacity:.9}}
+@media(prefers-reduced-motion:reduce){.content-section+.content-section::after{animation:none;opacity:.6}}
+.content-section h2{margin:0 0 25px;padding-bottom:19px;border-bottom:1px solid #c7dcea}
+.content-section h2::before{content:none}
+.content-section .page-title{margin-top:10px}
+.content-section .home-actions{margin-bottom:0}
+.content-section .direction{background-image:none;padding:22px 0;border-color:#d4e4ee}
+.content-section .direction:last-child{padding-bottom:0}
+.content-section .notice{border-radius:8px;background:#ffffff85;margin-bottom:0}
+.content-section .contact-row{background:none;padding:22px 0}
+.content-layout .toc{background:#f7fbffad;border:1px solid #cadfec;border-radius:12px;padding:22px 18px;box-sizing:border-box}
+.petal-divider{background:none}
+.petal-divider::before{background-image:url('lotus-divider-glow-plus-two.png');background-size:100% auto;background-position:center 55%;opacity:.58;filter:none}
+.petal-divider::after{opacity:.28}
+footer{background-image:url('lotus-divider-glow-plus-two.png');background-size:100% auto;background-position:center 48%;padding-top:145px}
+.publication-layout>.first,.publication-layout>.collab{padding:24px;border:1px solid #c4daea;border-top:3px solid #a9cddd;border-radius:16px;background:#f8fcffd9;min-width:0}
+.publication-layout>.collab{background:#f4f1fad9;border-top-color:#c7bbdc}
+.paper{box-shadow:0 5px 16px #7193aa08}
+@media(max-width:800px){.content-section{padding:24px 19px;margin-bottom:25px;border-radius:13px}.content-section+.content-section::before{height:70px;margin:0 -6px 15px}.content-layout .toc{padding:20px}.publication-layout>.first,.publication-layout>.collab{padding:20px 16px}footer{background-size:100% auto;padding-top:95px}}
+
+/* Cats rest below the footer lotus pond, above the credits. */
+footer{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;background:none;padding-top:0;align-items:end}
+footer::before{content:'';display:block;grid-column:1/-1;aspect-ratio:6/1;background:url('lotus-divider-glow-plus-two.png') center 54%/100% auto no-repeat;pointer-events:none}
+.footer-cats{grid-column:1/-1;width:min(100%,880px);margin:-8px auto 10px;line-height:0}
+.footer-cats img{display:block;width:100%;height:auto}
+footer>span:last-child{text-align:right}
+@media(max-width:800px){footer{padding-top:0;gap:12px 18px}.footer-cats{width:100%;margin:-4px auto 6px}footer::before{aspect-ratio:5/1}}
+
+/* One unified translucent lotus scene, with the smaller cats at its center. */
+footer::before{display:none}
+.footer-cats{width:100%;max-width:none;margin:0 auto;opacity:.68}
+.footer-cats img{width:100%;height:auto}
+@media(max-width:800px){.footer-cats{width:100%;margin:0 auto}}
+
+/* User-selected six-cat original, centered within the lotus footer. */
+.footer-cats{display:flex;align-items:center;justify-content:center;aspect-ratio:3/1;background:url('lotus-divider-glow-plus-two.png') center 54%/100% auto no-repeat}
+.footer-cats img{width:46%;height:auto;transform:translateY(9%);filter:blur(.15px)}

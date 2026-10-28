@@ -1,0 +1,8 @@
+/* The supplied calligraphic glyph is an image asset, not an identified font. */
+.name-glyphs{display:inline-flex;gap:.025em;align-items:center;vertical-align:middle;line-height:1}
+.name-glyphs img{display:block;width:1em;height:1em;object-fit:contain}
+.brand .name-glyphs{font-size:34px}
+.identity-name .name-glyphs{font-size:55px;margin-bottom:5px}
+.avatar .name-glyphs{font-size:31px}
+.avatar .name-glyphs img{width:1em;height:1em;border-radius:0;object-fit:contain}
+@media(max-width:800px){.brand .name-glyphs{font-size:30px}.identity-name .name-glyphs{font-size:47px}.avatar .name-glyphs{font-size:25px}}

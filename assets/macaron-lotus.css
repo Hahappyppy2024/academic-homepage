@@ -1,0 +1,24 @@
+/* Soft macaron blue with a low, elongated watercolor lotus frieze. */
+:root{--bg:#eaf4fc;--paper:#f8fcff;--pink:#deedf9;--rose:#628cab;--ink:#365970;--muted:#66849a;--line:#d2e4f2}
+body{background:radial-gradient(ellipse at 8% 10%,#d8eaf9a8,transparent 52%),radial-gradient(ellipse at 95% 44%,#e0eefaa0,transparent 52%),linear-gradient(130deg,#eef7ff,#e5f1fb 55%,#eef7fd);background-attachment:fixed}
+.topbar{background:#eef7fff5;border-color:#d6e7f4}.avatar{background:linear-gradient(145deg,#e1f0fc,#cde4f5);border-color:#bad7eb}.paper{background:#f8fcffe8;border-color:#cfe2f1}.first .paper:first-of-type{background:linear-gradient(145deg,#e2f0fc,#f9fdff)}
+.petal-divider{height:116px;margin:9px auto 18px;max-width:1352px}
+.petal-divider::before{background-image:url('lotus-divider-glow.png');background-size:100% 270px;background-position:center 54%;opacity:.87;animation-duration:13s}
+.petal-divider::after{bottom:6%;height:18%}
+.prose>h2::before{height:84px;background:url('lotus-divider-glow.png') center 54%/100% 195px no-repeat;margin:0 0 18px;opacity:.8}
+.direction+.direction{background-image:url('lotus-divider-glow.png');background-position:center top;background-size:100% 170px;padding-top:98px}
+.contact-row{background-image:url('lotus-divider-glow.png');background-position:center top;background-size:100% 170px;padding-top:100px}
+footer{background-image:url('lotus-divider-glow.png');background-position:center -38px;background-size:100% 225px;padding-top:145px}
+.year-heading:after{background-image:url('lotus-divider-glow.png');background-position:center 53%;background-size:100% 65px;height:25px}
+.toc hr{background-image:url('lotus-divider-glow.png');background-position:center 54%;background-size:100% 85px;height:35px}
+h1 .en::after,h2 .en::after,.identity-name .en::after{background-image:url('lotus-divider-glow.png');background-position:22% 53%;background-size:100px 38px;width:30px;height:24px}
+@supports(background-clip:text){h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{background-image:url('lotus-divider-glow.png'),linear-gradient(#52778f,#52778f);background-size:120px 40px,100% 100%;background-position:center;background-blend-mode:multiply}}
+.year-heading .en{background:none}
+@media(max-width:800px){.petal-divider{height:84px;margin:6px auto 18px}.petal-divider::before{background-size:650px 190px;background-position:center 54%}.prose>h2::before{height:66px;background-size:520px 150px}.direction+.direction{background-size:520px 150px;background-position:center -24px;padding-top:82px}.contact-row{background-size:520px 150px;background-position:center -24px;padding-top:85px}.collab{background-image:url('lotus-divider-glow.png');background-size:520px 150px;background-position:center -24px;padding-top:90px}.toc{background-image:url('lotus-divider-glow.png');background-size:520px 150px;background-position:center -24px;padding-top:90px}footer{background-size:650px 180px;background-position:center -35px;padding-top:110px}}
+
+/* Personal name uses the locally embedded Yan-style Kai font. */
+.brand .zh,.identity-name .zh,.avatar{font-family:"DongFang DaKai","KaiTi","STKaiti",serif;font-weight:400;font-synthesis:none}
+.avatar{font-size:27px}
+
+/* Keep all seven flowers visible in their prescribed order on narrow screens. */
+@media(max-width:800px){.petal-divider::before{background-size:100% 180px}.prose>h2::before{background-size:100% 150px}.direction+.direction,.contact-row,.collab,.toc{background-size:100% 150px}footer{background-size:100% 180px}}

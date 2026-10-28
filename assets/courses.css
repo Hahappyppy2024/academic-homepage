@@ -1,0 +1,28 @@
+.course-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0 4px}
+.course-overview a{display:flex;align-items:center;gap:15px;padding:19px 16px;border:1px solid #c5dce9;border-radius:10px;background:#eaf5fc99;transition:background .15s}
+.course-overview a:hover{background:#dceef9}
+.course-number{font:italic 24px Georgia,serif;color:#8aadc2}
+.academic-entry{display:block;margin:28px 0 0;padding:23px 25px;border:1px solid #bbd5e5;border-left:3px solid #88b1c9;border-radius:10px;background:#e8f4fbb8}
+.academic-entry:hover{background:#dceef9}
+.academic-entry-title{display:block;font-size:23px;color:#426f89}
+.academic-entry-title .zh{font-family:"DongFang DaKai","KaiTi","STKaiti",serif}
+.academic-entry-title .en{font-size:15px}
+.academic-entry-description{display:block;margin-top:13px;font-size:14px;color:var(--muted);line-height:1.8}
+.course-overview .zh{font-size:17px}.course-overview .en{font-size:12px}
+.course-keywords{padding-top:18px;margin-top:25px;border-top:1px solid #d4e4ee;color:#618aa2}
+.course-keywords .zh{font-size:13px}.course-keywords .en{font-size:11px}
+@media(max-width:600px){.course-overview{grid-template-columns:1fr;gap:10px}.course-overview a{padding:14px 18px}}
+.course-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+.course-card{display:flex;flex-direction:column;min-width:0;padding:24px;border:1px solid #c8dfed;border-radius:12px;background:#f9fcffb3}
+.course-card:only-child{grid-column:1/-1}
+.course-card h3{margin:0 0 16px;font-size:24px}
+.course-card h3 .en{font-size:19px}
+.course-card p{margin:0 0 22px;font-size:14px;line-height:1.9}
+.course-materials{margin-top:auto;padding-top:15px;border-top:1px solid #d9e7f0}
+.course-ppt-link,.course-ppt-pending{display:inline-block;padding:8px 14px;border:1px solid #c6dce9;border-radius:6px;font-size:13px;line-height:1.5}
+.course-ppt-link{background:#e5f2fb;color:#507e9a}
+.course-ppt-link:hover{background:#d8eaf7}
+.course-ppt-pending{color:#718996;background:#edf4f8}
+.course-ppt-link .en,.course-ppt-pending .en{font-size:10px}
+@media(max-width:1000px){.course-cards{grid-template-columns:1fr}}
+@media(max-width:600px){.course-card{padding:21px}}

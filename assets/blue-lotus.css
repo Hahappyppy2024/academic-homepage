@@ -1,0 +1,19 @@
+/* Moon-white paper, mist-blue water, and a long pastel lotus pond. */
+:root{--bg:#f5fafd;--paper:#fcfeff;--pink:#e5f1f8;--rose:#527f9e;--ink:#304b60;--muted:#637d90;--line:#d9e8f0}
+body{background:radial-gradient(ellipse at 0 16%,#ddecf88c,transparent 48%),radial-gradient(ellipse at 100% 48%,#e8f1f8a8,transparent 43%),linear-gradient(135deg,#f8fcff,#f0f7fc 60%,#f7fbfe);background-attachment:fixed}
+.topbar{background:rgba(246,251,255,.96);border-color:#dce9f1}.avatar{background:linear-gradient(145deg,#e6f3fc,#d4e7f2);border-color:#c1dae9;color:#658fab}
+nav a::after,nav a[aria-current=page]::after{background:#cfdfeb}nav a[aria-current=page]::after{background:#709db9}nav a:hover::after{background:#93b7cf}
+.paper{background:rgba(252,254,255,.86);border-color:#d5e6ef;box-shadow:0 7px 28px #7b9cb608}.first .paper:first-of-type{background:linear-gradient(145deg,#e9f4fc,#fcfeff)}
+.collab{border-left-color:#d6e6ef}.direction{border-top:0}.placeholder{border-color:#d2e3ed}.button{background:#618eac;border-color:#618eac}.button .en{color:#f4faff}.secondary-button{border-color:#9ab9ce;color:#527f9e}.secondary-button .en{color:#527f9e}
+.notice{background:linear-gradient(110deg,#e8f3fa,#f2f8fc);border-left-color:#85afc8}.resources a:hover{background:#e2f0fa}
+.petal-divider{height:138px;width:100%;max-width:1352px;background:url('lotus-pond.svg') center/100% auto no-repeat;margin:0 auto 21px}
+.prose>h2::before{height:100px;width:100%;background:url('lotus-pond.svg') center/100% auto no-repeat;opacity:1;margin:10px 0 24px}
+.masthead{padding-bottom:10px}.content-layout,.publication-layout{padding-top:8px}
+h1 .en::after,h2 .en::after,.identity-name .en::after{width:35px;height:28px;background:url('lotus-mark.svg') center/contain no-repeat}
+footer{background:url('lotus-pond.svg') top center/100% auto no-repeat;padding-top:165px;border-top:0}
+.year-heading:after{height:18px;background:url('lotus-pond.svg') center/100% auto no-repeat;opacity:.85}
+.toc hr{height:34px;background:url('lotus-pond.svg') center/100% auto no-repeat;border:0}
+.direction+.direction{background:url('lotus-pond.svg') top center/100% auto no-repeat;padding-top:105px;margin-top:7px}
+.contact-row{border-top:0;background:url('lotus-pond.svg') top center/100% auto no-repeat;padding-top:90px}
+@media(max-width:800px){.petal-divider{height:80px;margin-bottom:16px;background-size:auto 76px}.prose>h2::before{height:65px;background-size:auto 63px;margin-bottom:18px}.direction+.direction{padding-top:68px;background-size:auto 60px}.contact-row{padding-top:70px;background-size:auto 60px}.collab{border-top:0;background:url('lotus-pond.svg') top center/auto 64px no-repeat;padding-top:84px}.toc{border-top:0;padding-top:66px;background:url('lotus-pond.svg') top center/auto 60px no-repeat}footer{padding-top:100px;background-size:auto 80px}.year-heading:after{background-size:auto 30px}}
+@media(prefers-contrast:more){h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{color:#304f66!important}}

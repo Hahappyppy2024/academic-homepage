@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40">
+<defs><linearGradient id="petal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf2"/><stop offset=".55" stop-color="#daeafa"/><stop offset="1" stop-color="#8faeca"/></linearGradient><linearGradient id="pink" x2="0" y2="1"><stop stop-color="#edc8dc"/><stop offset="1" stop-color="#fbf4ed"/></linearGradient></defs>
+<path d="M16 24q-2 7 1 13" fill="none" stroke="#729f88" stroke-width="2"/>
+<path d="M16 2C13 8 6 12 7 19c1 6 5 9 9 9s9-4 9-10C25 12 19 8 16 2Z" fill="url(#petal)" stroke="#698fa9" stroke-width=".9"/>
+<path d="M16 2c-1 7-6 12-3 22 1 3 4 3 5 0 4-8-1-15-2-22Z" fill="url(#pink)" stroke="#b0b5cc" stroke-width=".65"/>
+<path d="M7 20q3 9 9 8Q12 23 7 20Zm18 0q-2 9-9 8 5-5 9-8Z" fill="#9bbdac" stroke="#739a89" stroke-width=".6"/>
+</svg>

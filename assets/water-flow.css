@@ -1,0 +1,14 @@
+/* Quiet motion confined to the water; the lotus painting stays still. */
+.header-painting{background-image:url('lotus-pond-panorama.png');background-size:100% auto;animation:none;opacity:.45;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(#000 78%,transparent);mask-composite:intersect}
+.header-water{position:absolute;inset:0;z-index:-1;pointer-events:none;background:url('lotus-pond-panorama.png') center bottom/100% auto no-repeat;opacity:.16;mask-image:linear-gradient(transparent 64%,#000 85%,transparent),linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect;filter:url('#lotus-water-flow')}
+.water-rings{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden;mask-image:linear-gradient(transparent 65%,#000 90%)}
+.water-rings i{position:absolute;left:42%;bottom:4%;width:150px;height:13px;border:1px solid #f6fcffb3;border-radius:50%;box-shadow:0 2px 4px #c5deec55;animation:lotus-ripple 9s ease-out infinite;opacity:0}
+.water-rings i:nth-child(2){left:67%;bottom:11%;width:110px;animation-delay:-3s}
+.water-rings i:nth-child(3){left:19%;bottom:7%;width:100px;animation-delay:-6s}
+.water-filter{position:absolute;width:0;height:0;pointer-events:none}
+@keyframes lotus-ripple{0%{transform:scale(.3);opacity:0}25%{opacity:.55}100%{transform:scale(2.6,1.8);opacity:0}}
+@media(prefers-reduced-motion:reduce){.header-water,.water-rings{display:none}}
+
+/* Scale the painted scenery proportionally; never widen the flowers. */
+.header-scene,.header-scene .masthead{min-height:clamp(310px,30vw,650px)}
+@media(max-width:800px){.header-scene,.header-scene .masthead{min-height:325px}}

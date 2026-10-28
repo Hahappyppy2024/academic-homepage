@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="140" viewBox="0 0 150 140">
+ <defs>
+  <linearGradient id="petal" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#f2f9fc"/><stop offset=".5" stop-color="#bfdde9"/><stop offset="1" stop-color="#7dacc9"/></linearGradient>
+  <linearGradient id="leaf"><stop stop-color="#c6e0e4"/><stop offset="1" stop-color="#7daab9"/></linearGradient>
+  <g id="lotus" fill="url(#petal)" stroke="#7ca3bf" stroke-width=".6"><path d="M0 15Q-20 0-15-20Q0-11 0 15M0 15Q20 0 15-20Q0-11 0 15M0 16Q-13-7 0-28Q13-7 0 16M0 18Q-24 17-30-4Q-9-5 0 18M0 18Q24 17 30-4Q9-5 0 18M0 19Q-19 17-12-5Q2 5 0 19M0 19Q19 17 12-5Q-2 5 0 19M0 21Q-18 26-26 11Q-9 7 0 21M0 21Q18 26 26 11Q9 7 0 21M0 22Q-11 11 0 0Q11 11 0 22"/></g>
+  <g id="pad"><path d="M15 3C-2-18-28-8-25 4C-22 20 2 21 20 8L-4 0Z" fill="url(#leaf)"/><path d="M-4 0L-23-2M-4 0L-16 12M-4 0L4 15M-4 0L9-6" stroke="#d3e8e9" stroke-width=".8" fill="none"/></g>
+ </defs>
+ <path fill="#41657e" d="M0 0h150v140H0z"/>
+ <path d="M37 107Q46 69 39 26M108 140Q93 116 106 72" stroke="#94bdc8" stroke-width="2" fill="none"/>
+ <use href="#pad" x="25" y="63"/><use href="#pad" transform="translate(120 112) rotate(-25)"/>
+ <use href="#lotus" x="44" y="26"/><use href="#lotus" transform="translate(107 88) rotate(12) scale(.95)"/>
+ <use href="#pad" transform="translate(145 12) rotate(20)"/>
+ <path d="M0 129Q23 124 44 129M62 58Q83 54 95 58" stroke="#c9dce8" stroke-width="1" fill="none"/>
+</svg>

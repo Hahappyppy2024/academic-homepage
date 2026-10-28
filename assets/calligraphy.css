@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* Unmodified official WOFF2, embedded for this site; retain assets/fonts/LICENSE.txt. */
+@font-face{
+  font-family:'DongFang DaKai';
+  src:url('fonts/AlimamaDongFangDaKai-Regular.woff2') format('woff2');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+:root{--signature:'Kaushan Script','DongFang DaKai','KaiTi','STKaiti',cursive;--calligraphy:'DongFang DaKai','KaiTi','STKaiti',serif}
+.brand,.identity h1,.identity-name,.mast-note,.page-title,.column-head h2,.prose h2{font-family:var(--signature);font-weight:400;font-synthesis:none}
+.brand{font-size:29px}.identity h1{font-size:43px;line-height:1.45}.identity-name{font-size:36px;line-height:1.5}.mast-note{font-size:23px;line-height:1.65}.column-head h2{font-size:30px;line-height:1.5}.collab .column-head h2{font-size:27px;line-height:1.5}.page-title{font-size:46px;line-height:1.5}.prose h2{line-height:1.6}
+/* Paper titles stay in a reading face; Chinese paper headings use Yan-style Kai. */
+html[lang=zh-CN] .paper h3{font-family:var(--calligraphy);font-size:24px;line-height:1.65;font-weight:400;font-synthesis:none}
+html[lang=zh-CN] .column-head h2{font-family:var(--calligraphy);font-weight:400;font-size:31px}
+html[lang=zh-CN] .identity h1{font-weight:400;font-size:43px}
+html[lang=zh-CN] .mast-note{font-size:22px;line-height:1.8}
+@media(max-width:800px){.brand{font-size:26px}.identity h1,html[lang=zh-CN] .identity h1{font-size:35px}.page-title,html[lang=zh-CN] .page-title{font-size:34px}.column-head h2,.collab .column-head h2{font-size:29px}}

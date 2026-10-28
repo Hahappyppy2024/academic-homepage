@@ -1,0 +1,26 @@
+.methods-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0 4px}
+.methods-overview a{display:flex;align-items:flex-start;gap:12px;padding:19px 16px;border:1px solid #c4dce9;border-radius:10px;background:#edf7fcb3}
+.methods-overview a:hover{background:#dceef9}
+.methods-overview .zh{font-size:16px}.methods-overview .en{font-size:11px}
+.method-number{font:italic 22px Georgia,serif;color:#85a8be;line-height:1.5}
+.method-stage{margin:0 0 18px;color:#618aa2;font-size:12px}
+.method-stage .en{font-size:10px}
+.method-steps{padding-left:22px;margin:24px 0;display:grid;gap:18px;color:var(--muted);font-size:15px;line-height:1.9}
+.method-steps li::marker{color:#87adc5}
+.method-output{padding:18px 20px;border-left:3px solid #accddd;border-radius:0 8px 8px 0;background:#e7f2f9a8;color:var(--muted)}
+.method-output strong{font-weight:500;color:#527d98;font-size:14px}
+.method-output strong .en{font-size:11px}
+.method-output p{margin:10px 0 0;font-size:14px}
+@media(max-width:1000px){.methods-overview{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.methods-overview{grid-template-columns:1fr}.methods-overview a{padding:15px}.method-steps{font-size:14px}.method-output{padding:16px}}
+.resource-note{font-size:12px;color:var(--muted);margin:0 0 30px}
+.resource-group+.resource-group{margin-top:36px}
+.resource-group>h3{padding-bottom:12px;border-bottom:1px solid #d4e4ee;margin:0 0 18px}
+.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.resource-card{min-width:0;padding:23px;border:1px solid #cbdfea;border-radius:11px;background:#f9fcffb8}
+.resource-card .resource-provider{margin:0 0 11px;font-size:11px;line-height:1.6;color:#64889e}
+.resource-card h4{margin:0 0 15px;font-size:17px;line-height:1.55;font-weight:500;color:#3e6d89;overflow-wrap:break-word}
+.resource-card h4 a:hover{text-decoration:underline;text-underline-offset:4px}
+.resource-card .resource-description{margin:0;font-size:14px;line-height:1.9}
+.resource-description .en{font-size:12px}
+@media(max-width:700px){.resource-grid{grid-template-columns:1fr}.resource-card{padding:21px}}

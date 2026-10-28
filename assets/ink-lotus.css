@@ -1,0 +1,19 @@
+/* Chinese ink-and-watercolor painting with green leaves, blue-white lotus. */
+body{background:radial-gradient(ellipse at 4% 12%,#e0eef780,transparent 48%),linear-gradient(125deg,#f8fcff,#eff7fb 62%,#f7fbfd)}
+.petal-divider{position:relative;isolation:isolate;height:clamp(135px,22vw,285px);width:100%;max-width:1352px;background:none!important;margin:12px auto 26px;overflow:hidden}
+.petal-divider::before{content:'';position:absolute;inset:0;background:url('lotus-inkwash.png') center 68%/100% auto no-repeat;animation:lotus-float 11s ease-in-out infinite;transform-origin:50% 85%;will-change:transform;opacity:.88}
+.petal-divider::after{content:'';position:absolute;left:8%;right:8%;bottom:12%;height:24%;border-radius:50%;background:radial-gradient(ellipse,transparent 40%,#9fc4ce14 45%,transparent 51%,#a0c6d013 57%,transparent 63%);animation:lotus-water 13s ease-in-out infinite;pointer-events:none;z-index:-1}
+.prose>h2::before{height:clamp(90px,15vw,185px);background:url('lotus-inkwash.png') center 65%/100% auto no-repeat;opacity:.72;animation:lotus-breathe 15s ease-in-out infinite;margin:0 0 25px}
+.direction+.direction{background-image:url('lotus-inkwash.png');background-position:top center;background-size:100% auto;padding-top:clamp(105px,17vw,180px)}
+.contact-row{background-image:url('lotus-inkwash.png');background-position:top center;background-size:100% auto;padding-top:clamp(105px,17vw,180px)}
+footer{background-image:url('lotus-inkwash.png');background-size:min(100%,1100px) auto;padding-top:clamp(150px,24vw,280px)}
+.year-heading:after{background:url('lotus-inkwash.png') center 65%/100% auto no-repeat;height:25px;opacity:.55}
+.toc hr{background:url('lotus-inkwash.png') center 65%/100% auto no-repeat;height:42px}
+h1 .en::after,h2 .en::after,.identity-name .en::after{background:url('lotus-inkwash.png') 18% 55%/95px auto no-repeat;width:32px;height:29px;opacity:.8;animation:lotus-breathe 14s ease-in-out infinite}
+@supports(background-clip:text){h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{background-image:url('lotus-inkwash.png'),linear-gradient(#486b7d,#486b7d);background-size:120px 40px,100% 100%;background-position:center;background-blend-mode:multiply;background-clip:text;-webkit-background-clip:text}}
+.year-heading .en{background:none;color:var(--muted)!important}
+@keyframes lotus-float{0%,100%{transform:translate3d(-2px,3px,0) rotate(-.2deg)}50%{transform:translate3d(3px,-5px,0) rotate(.2deg)}}
+@keyframes lotus-breathe{0%,100%{transform:translateY(2px);opacity:.73}50%{transform:translateY(-3px);opacity:.85}}
+@keyframes lotus-water{0%,100%{transform:scaleX(.96);opacity:.35}50%{transform:scaleX(1.04);opacity:.7}}
+@media(max-width:800px){.petal-divider{height:150px;margin-bottom:24px}.petal-divider::before{background-size:auto 170px;background-position:center 60%}.prose>h2::before{height:105px;background-size:auto 125px}.direction+.direction{background-size:auto 100px;padding-top:112px}.contact-row{background-size:auto 105px;padding-top:120px}.collab{background-image:url('lotus-inkwash.png');background-size:auto 105px;padding-top:120px}.toc{background-image:url('lotus-inkwash.png');background-size:auto 90px;padding-top:110px}footer{background-size:auto 150px;padding-top:170px}}
+@media(prefers-reduced-motion:reduce){.petal-divider::before,.petal-divider::after,.prose>h2::before,h1 .en::after,h2 .en::after,.identity-name .en::after{animation:none!important;transform:none;will-change:auto}}

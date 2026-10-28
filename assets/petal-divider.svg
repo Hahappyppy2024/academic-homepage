@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="70" viewBox="0 0 700 70" role="img" aria-label="粉色荷花与荷叶">
+ <defs>
+  <linearGradient id="lotus" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#f9eeeb"/><stop offset=".55" stop-color="#e9b2c0"/><stop offset="1" stop-color="#bb6d8b"/></linearGradient>
+  <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#afbd9c"/><stop offset="1" stop-color="#728f79"/></linearGradient>
+  <linearGradient id="line"><stop stop-color="#e4d4d8" stop-opacity="0"/><stop offset=".5" stop-color="#d3aebc"/><stop offset="1" stop-color="#e4d4d8" stop-opacity="0"/></linearGradient>
+ </defs>
+ <path d="M0 41H270M430 41H700" fill="none" stroke="url(#line)"/>
+ <!-- Broad round lotus leaves, with a radial notch and veins. -->
+ <g fill="url(#leaf)" stroke="#819c80" stroke-width=".5">
+  <path d="M316 49C299 27 272 37 277 48C282 60 307 60 320 50L300 46Z"/>
+  <path d="M384 49C401 27 428 37 423 48C418 60 393 60 380 50L400 46Z"/>
+ </g>
+ <g fill="none" stroke="#d6dec5" stroke-width=".7" opacity=".85"><path d="M300 46L282 43M300 46L288 53M300 46L306 55M400 46L418 43M400 46L412 53M400 46L394 55"/></g>
+ <!-- Lotus in profile: upright pointed petals, layered into a shallow cup. -->
+ <g fill="url(#lotus)" stroke="#c88b9e" stroke-width=".7" stroke-linejoin="round">
+  <path d="M350 50Q324 37 329 14Q348 24 350 50Z"/>
+  <path d="M350 50Q376 37 371 14Q352 24 350 50Z"/>
+  <path d="M350 49Q334 27 350 4Q366 27 350 49Z"/>
+  <path d="M350 52Q322 53 312 29Q338 27 350 52Z"/>
+  <path d="M350 52Q378 53 388 29Q362 27 350 52Z"/>
+  <path d="M350 53Q328 46 335 24Q351 32 350 53Z"/>
+  <path d="M350 53Q372 46 365 24Q349 32 350 53Z"/>
+  <path d="M350 54Q328 58 319 43Q338 38 350 54Z"/>
+  <path d="M350 54Q372 58 381 43Q362 38 350 54Z"/>
+  <path d="M350 55Q338 43 350 30Q362 43 350 55Z"/>
+ </g>
+ <path d="M341 56Q350 60 359 56" fill="none" stroke="#8c9c77" stroke-width="1"/>
+ <g fill="none" stroke="#c6d2c3" stroke-width=".7" opacity=".8"><path d="M292 62Q321 58 338 62M362 62Q379 58 408 62M325 67Q350 64 375 67"/></g>
+</svg>

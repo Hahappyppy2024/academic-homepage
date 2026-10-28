@@ -1,0 +1,28 @@
+/* Equal-size centered navigation, identical on every page. */
+.nav-wrap{display:grid;grid-template-columns:minmax(100px,1fr) auto minmax(100px,1fr);gap:18px;max-width:1440px;min-height:108px}
+.brand{justify-self:start}nav{display:grid;grid-template-columns:repeat(7,112px);gap:12px;margin:0;justify-self:center;align-items:stretch}
+nav a{display:flex;align-items:center;justify-content:center;text-align:center;width:112px;height:76px;padding:4px 4px 16px;white-space:normal}
+nav a .bi{width:100%;display:grid;grid-template-rows:29px 39px;align-content:start}nav a .zh{font-size:17px;line-height:29px;white-space:nowrap}nav a .en{font-family:'Cormorant Garamond',Georgia,serif;font-size:13px;font-weight:600;line-height:1.5;margin-top:2px;align-self:start}
+nav a::after,nav a[aria-current=page]::after{content:'';position:absolute;left:50%;right:auto;bottom:5px;transform:translateX(-50%);width:66px;height:2px;background:#e6d6da}
+nav a[aria-current=page]::after{background:#9a546b;height:3px}nav a:hover::after{background:#b67b8e}
+.menu-toggle{grid-column:3;justify-self:end}
+/* Floral typography is selectable text with an original botanical SVG texture. */
+@supports(background-clip:text){
+ h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{
+  background-image:url('floral-letter-pattern.svg?v=blue-lotus');background-size:60px 56px;background-position:center;background-clip:text;-webkit-background-clip:text;color:transparent!important;
+ }
+}
+h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;letter-spacing:.4px}
+h1 .en,.identity-name .en{letter-spacing:1.5px;text-transform:uppercase}
+h1 .en::after,h2 .en::after,.identity-name .en::after{content:'';display:inline-block;width:30px;height:25px;margin-left:6px;vertical-align:middle;background:url('petal-divider.svg') center/280px 25px no-repeat}
+.page-title .en{font-size:31px}.identity-name .en{font-size:30px}.column-head h1 .en,.column-head h2 .en{font-size:23px}.prose h2 .en{font-size:23px}.prose h3 .en{font-size:19px}.paper h3 .en,.collab .paper h3 .en{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:18px}.year-heading .en{background:none;color:var(--muted)!important}
+.petal-divider{height:54px;width:min(100%,700px);margin:0 auto 15px;background:url('petal-divider.svg') center/contain no-repeat}
+.publication-layout,.content-layout{border-top:0;padding-top:16px}
+.prose>h2::before{content:'';display:block;height:43px;background:url('petal-divider.svg') center/contain no-repeat;margin:5px 0 25px;opacity:.9}
+.prose>h2{margin-top:35px}.direction{border-top-color:#eee1e3}.collab{border-left-color:#ead6dc}
+footer{border-top:0;background:url('petal-divider.svg') top center/420px 34px no-repeat;padding-top:48px}
+@media(max-width:1200px){.nav-wrap{grid-template-columns:minmax(80px,1fr) auto minmax(80px,1fr);gap:10px}nav{grid-template-columns:repeat(7,96px);gap:5px}nav a{width:96px}nav a .en{font-size:12px}}
+@media(max-width:1000px) and (min-width:801px){.nav-wrap{padding-left:22px;padding-right:22px;grid-template-columns:85px minmax(0,1fr) 85px;gap:8px}nav{width:100%;grid-template-columns:repeat(7,minmax(0,1fr));gap:0}nav a{width:100%;min-width:0;white-space:normal}nav a .en{font-size:11px}.brand{font-size:22px}.brand .en{font-size:13px}}
+@media(max-width:800px){.nav-wrap{display:flex;min-height:90px;flex-wrap:wrap;padding:13px 22px;gap:10px}.brand{margin-right:auto}.menu-toggle{margin-left:auto}nav{display:none;width:100%;order:4;margin:0;padding:10px 0;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;justify-self:stretch}nav.open{display:grid}nav a{width:100%;height:76px;padding:4px 2px 16px}nav a .zh{font-size:16px}nav a .en{font-size:12px}nav a::after,nav a[aria-current=page]::after{width:58px}.petal-divider{height:42px;margin-bottom:12px}.page-title .en{font-size:27px}.identity-name .en{font-size:26px}.column-head h1 .en,.column-head h2 .en{font-size:22px}.prose>h2::before{height:35px}footer{background-size:90% 34px}}
+@media(prefers-contrast:more){h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{background:none;color:#713a45!important}}
+@media print{h1 .en,h2 .en,h3 .en,.brand .en,.identity-name .en,.mast-note .en,nav a .en{background:none;color:#352c30!important}}

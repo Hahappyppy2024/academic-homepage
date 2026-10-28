@@ -1,0 +1,13 @@
+/* The seven varied flowers belong only to the scene directly below the top bar. */
+.header-scene{position:relative;isolation:isolate;overflow:hidden;min-height:310px;background:linear-gradient(180deg,#e9f4fd80,#e5f1fb48)}
+.header-painting{position:absolute;inset:0;z-index:-1;pointer-events:none;background:url('lotus-header-glow.png') center bottom/contain no-repeat;opacity:.9;filter:none;animation:header-mist-drift 22s ease-in-out infinite;transform-origin:center}
+.header-scene .masthead{position:relative;padding-top:43px;padding-bottom:75px;min-height:310px;align-items:center}
+.header-scene .identity,.header-scene .mast-note{text-shadow:0 1px 9px #f5fbff}
+.header-scene .mast-note{border-color:#c9deec8c}
+@keyframes header-mist-drift{0%,100%{transform:translate3d(-3px,3px,0) rotate(-.12deg)}50%{transform:translate3d(3px,-4px,0) rotate(.12deg)}}
+@media(max-width:800px){.header-scene{min-height:325px}.header-scene .masthead{min-height:325px;padding-top:30px;padding-bottom:50px}.header-painting{background-size:contain;background-position:center bottom;opacity:.85}.header-scene .identity{text-shadow:0 1px 7px #f5fbff}}
+@media(prefers-reduced-motion:reduce){.header-painting{animation:none;transform:none}}
+
+/* Temporarily hide only the extra pond strip above the About Me home content. */
+.home-page>.petal-divider{display:none}
+.home-page{padding-top:24px}
