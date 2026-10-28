@@ -10,7 +10,7 @@ window.PROFILE = {
   bioZh:'我是康考迪亚大学软件工程博士候选人。我的研究聚焦软件安全、漏洞管理与大语言模型生成代码的安全评估，探索如何通过可执行的功能与安全测试，对生成软件开展基准评测、漏洞检测、修复与验证。',
   email:'chengcheng.study@gmail.com',universityEmail:'cheng.cheng.20171@mail.concordia.ca',
   location:'Montreal, QC, Canada',locationZh:'加拿大魁北克省蒙特利尔',
-  scholar:'https://scholar.google.ca/citations?user=1F_HI-AAAAAJ&hl=en',orcid:'https://orcid.org/0000-0001-6962-6923',github:'',cv:'assets/Cheng_Cheng_Academic_CV_updated.pdf',portrait:'',
+  scholar:'https://scholar.google.ca/citations?user=1F_HI-AAAAAJ&hl=en',orcid:'https://orcid.org/0000-0001-6962-6923',github:'',cv:'assets/Cheng_Cheng_Academic_CV_20261029.pdf',portrait:'',
   sourceDate:'May 2026',sourceDateZh:'2026 年 5 月',
   homepage:'https://hahappyppy2024.github.io/academic-homepage/',
   independentResearch:'Since 2023, I have pursued independent research without bursary funding, continuing to develop research questions, conduct studies, and write papers.',
