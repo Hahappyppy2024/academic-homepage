@@ -73,7 +73,17 @@ window.PROFILE = {
     "role": "Teaching Assistant · Concordia University",
     "roleZh": "助教 · 康考迪亚大学",
     "description": "Course overview: formal methods for specifying and reasoning about software, including assertions, contracts, logical specifications, and model-based formalisms.",
-    "descriptionZh": "课程简介：运用形式化方法描述软件并推理其性质，涵盖断言、契约、逻辑规约与基于模型的形式化方法。"
+    "descriptionZh": "课程简介：运用形式化方法描述软件并推理其性质，涵盖断言、契约、逻辑规约与基于模型的形式化方法。",
+    "duties": [
+      {
+        "en": "Tutorials: explained formal methods concepts through examples and guided exercises, helping students understand software specifications, assertions, contracts, and logical reasoning about program behaviour.",
+        "zh": "Tutorial 习题课：通过实例与练习讲解形式化方法，帮助学生理解软件规约、断言与契约，并运用逻辑推理分析程序行为。"
+      },
+      {
+        "en": "Course tutoring and Q&A: clarified course concepts and exercise requirements, answered students' questions, and guided them in interpreting formal specifications and working through reasoning steps.",
+        "zh": "课程辅导与答疑：解释课程概念和练习要求，耐心解答学生疑问，引导学生理解形式化规约并梳理推理步骤。"
+      }
+    ]
   },
   {
     "period": "SOEN 343",
