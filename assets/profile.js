@@ -17,8 +17,8 @@ window.PROFILE = {
   independentResearchZh:'自 2023 年起，我在无 bursary 资助的情况下坚持开展独立研究，持续探索科研问题、开展研究并撰写论文。',
   researchIntro:'I develop security-oriented benchmarks and functional and exploit test suites for LLM-generated software, and study detection, repair and verification across programming languages and prompt granularities.',
   researchIntroZh:'我构建面向大语言模型生成软件的安全评测基准、功能测试与漏洞利用测试，并研究跨编程语言、跨提示粒度的漏洞检测、修复与验证流程。',
-  teachingIntro:'I served as a Teaching Assistant at Concordia University during 2019–2020. My experience covers COMP 248, SOEN 343, and SOEN 6461, including tutorials, assignment and project grading, course tutoring, and student Q&A.',
-  teachingIntroZh:'2019–2020 年，我在康考迪亚大学担任助教，参与 COMP 248、SOEN 343 和 SOEN 6461 三门课程的教学支持，工作包括 Tutorial 习题课、作业与项目批改、课程辅导及学生答疑。',
+  teachingIntro:'My teaching assistant experience at Concordia University includes COMP 248, SOEN 331, SOEN 343, and SOEN 6461. Across these roles, my responsibilities have included tutorials, assignment and project grading, course tutoring, and student Q&A.',
+  teachingIntroZh:'我在康考迪亚大学的助教经历包括 COMP 248、SOEN 331、SOEN 343 和 SOEN 6461。助教工作涵盖 Tutorial 习题课、作业与项目批改、课程辅导及学生答疑。',
   interests:[
     {en:'Software security & vulnerability management',zh:'软件安全与漏洞管理',detail:'Vulnerability detection and repair, vulnerability management, and empirical software engineering.',detailZh:'关注漏洞检测与修复、漏洞管理，以及实证软件工程研究。'},
     {en:'Security of LLM-generated code',zh:'大模型生成代码安全',detail:'Secure code generation, benchmark construction, functional and exploit testing, and detect-repair-verify workflows.',detailZh:'研究安全代码生成、评测基准构建、功能与漏洞利用测试，以及检测—修复—验证流程。'},
@@ -65,6 +65,15 @@ window.PROFILE = {
         "zh": "课程辅导与答疑：解释作业要求，解答课程概念和编程问题，引导学生梳理执行过程、定位错误并调试代码。"
       }
     ]
+  },
+  {
+    "period": "SOEN 331",
+    "title": "Formal Methods for Software Engineering",
+    "titleZh": "软件工程形式化方法",
+    "role": "Teaching Assistant · Concordia University",
+    "roleZh": "助教 · 康考迪亚大学",
+    "description": "Course overview: formal methods for specifying and reasoning about software, including assertions, contracts, logical specifications, and model-based formalisms.",
+    "descriptionZh": "课程简介：运用形式化方法描述软件并推理其性质，涵盖断言、契约、逻辑规约与基于模型的形式化方法。"
   },
   {
     "period": "SOEN 343",
