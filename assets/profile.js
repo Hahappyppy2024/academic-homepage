@@ -57,10 +57,6 @@ window.PROFILE = {
         "zh": "Tutorial 习题课：结合示例程序与练习，讲解编程基础和入门级面向对象概念，帮助学生理解课堂知识并应用到程序实现。"
       },
       {
-        "en": "Assignment and project grading: assessed submitted work, identified errors in program logic and implementation, and provided feedback to support revision.",
-        "zh": "作业与项目批改：评阅学生提交的作业和编程项目，指出程序逻辑与实现中的问题，并提供具体反馈，帮助学生理解错误并改进。"
-      },
-      {
         "en": "Course tutoring and Q&A: clarified assignment requirements, answered questions about course concepts, and guided students in tracing and debugging their code.",
         "zh": "课程辅导与答疑：解释作业要求，解答课程概念和编程问题，引导学生梳理执行过程、定位错误并调试代码。"
       }
